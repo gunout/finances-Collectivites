@@ -756,3 +756,56 @@ footer p {
     .stats-grid { grid-template-columns: 1fr; }
     .chart-container { height: 220px; }
 }
+
+/* Code couleur endettement sur les boutons */
+.commune-btn.dette-faible {
+    border-left: 4px solid #18753C;
+    background: linear-gradient(to right, rgba(24,117,60,.06), transparent 30%);
+}
+.commune-btn.dette-modere {
+    border-left: 4px solid #B34000;
+    background: linear-gradient(to right, rgba(179,64,0,.08), transparent 30%);
+}
+.commune-btn.dette-eleve {
+    border-left: 4px solid #E1000F;
+    background: linear-gradient(to right, rgba(225,0,15,.08), transparent 30%);
+}
+.commune-btn.dette-critique {
+    border-left: 4px solid #8B0000;
+    background: linear-gradient(to right, rgba(139,0,0,.12), transparent 30%);
+    font-weight: 700;
+}
+.commune-btn.active.dette-faible,
+.commune-btn.active.dette-modere,
+.commune-btn.active.dette-eleve,
+.commune-btn.active.dette-critique {
+    background: var(--bleu-france);
+    border-left-color: var(--bleu-france);
+}
+
+/* Légende endettement */
+.dette-legende {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 16px;
+    padding: 10px 14px;
+    background: var(--gris-bg);
+    font-size: .8em;
+    color: var(--gris-clair);
+}
+.dette-legende-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.dette-legende-item .pastille {
+    width: 12px;
+    height: 12px;
+    border-radius: 0;
+    display: inline-block;
+}
+.pastille.dette-faible { background: #18753C; }
+.pastille.dette-modere { background: #B34000; }
+.pastille.dette-eleve { background: #E1000F; }
+.pastille.dette-critique { background: #8B0000; }
