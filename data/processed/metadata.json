@@ -1,0 +1,12 @@
+{
+  "source": "OFGL / DGFiP",
+  "dataset": "donnees_carto_regions",
+  "type_budget": "Budget consolidé",
+  "date_extraction": "2026-09-29T14:18:26.622758",
+  "nb_regions": 13,
+  "annees": [
+    "2023",
+    "2024",
+    "2025"
+  ]
+}

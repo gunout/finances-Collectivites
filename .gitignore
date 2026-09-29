@@ -1,0 +1,15 @@
+# Données brutes (régénérables via scripts)
+data/raw/
+!data/raw/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Éditeurs
+.vscode/
+.idea/

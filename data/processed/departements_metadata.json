@@ -1,0 +1,11 @@
+{
+  "source": "OFGL / DGFiP",
+  "dataset": "ofgl-base-departements-consolidee",
+  "date_extraction": "2026-09-29T14:59:42.445156",
+  "nb_departements": 97,
+  "annees": [
+    "2023",
+    "2024",
+    "2025"
+  ]
+}
